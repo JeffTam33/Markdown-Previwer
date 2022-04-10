@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inspiration&family=Lato:wght@300&family=Luxurious+Roman&family=Playfair+Display&family=Poppins:wght@100&family=Quicksand&display=swap');
+/*
+  font-family: Lato, monospace;
+*/
+body {
+  background-color: #6D8EA0;
+}
+footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: flex;
+  font-size: 16px;
+  background-color: #182825;
+  display: inline-block;
+}
+
+#editor-wrapper {
+  background-color: white;
+  height: 400px;
+  width: 45%;
+  font-family: Lato, monospace;
+  font-size: 24px;
+  margin-right: 3%;
+  margin-left: 3%;
+  box-shadow: 3px 5px 6px;
+}
+
+#editor-heading{
+  background-color: #22AED1;
+  font-weight: Bold;
+  height: 10%;
+}
+
+#editor {
+  background-color: #AFA98D;
+  width: 100%;
+  height: 90%;
+  font-size: 18px;
+  resize: none;
+}
+
+#preview-wrapper {
+  background-color: #AFA98D;
+  width: 45%;
+  height: 50%;
+  font-family: Lato, monospace;
+  font-size: 24px;
+  float: right;
+  box-shadow: 3px 5px 6px;
+}
+
+#preview-heading {
+  background-color: #22AED1;
+  font-weight: Bold;
+  height: 10%;
+}
+
+#preview {
+  code {
+    background-color: white;
+  }
+  img { 
+    width: 25%;
+    height: 25%
+  }
+}
+
+.flex-container {
+  display: flex;
+}
+
+p {
+  text-indent: 1%;
+}
+
